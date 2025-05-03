@@ -1,0 +1,24 @@
+{
+  "name": "exercicio-todo-api",
+  "version": "1.0.0",
+  "description": "Este é um desafio prático para construir uma API REST de lista de tarefas (to-do list) utilizando Node.js com o framework Express.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Wantil/exercicio-todo-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-Wantil/exercicio-todo-api/issues"
+  },
+  "homepage": "https://github.com/Andre-Wantil/exercicio-todo-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

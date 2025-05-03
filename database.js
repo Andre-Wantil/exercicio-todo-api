@@ -11,7 +11,7 @@ const todosDatabase = (() => {
   const insert = async (todo) => {
     await wait(500);
     const id = idSequence++;
-    const data = { ...todo, id };
+    const data = { id,...todo };
     todos[id] = data;
     return data;
   };
